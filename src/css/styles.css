@@ -144,3 +144,67 @@ color: #FFFFFF;
 text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
+.label {
+    width: 112px;
+    height: 25px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 2px auto 0;
+    padding: 7px 12px;
+}
+
+.reasons .title {
+font-weight: 700;
+font-size: 38px;
+line-height: 38px;
+text-transform: uppercase;
+color: #222222;
+text-align: center;
+margin-top: 32px;
+margin-bottom: 0;
+}
+
+.reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons_round {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    }
+
+.reasons .reasons_descr .reasons_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.reasons .reasons_descr {
+    width: 370px;
+}
+
+
+.reasons .reasons_descr .reasons_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #202020;
+}
