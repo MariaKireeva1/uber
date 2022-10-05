@@ -98,6 +98,11 @@ color: #FFFFFF;
 text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
+.subheader .subheader_btn:hover {
+    background-image: none;
+    background-color: #1EACC7;
+}
+
 .promo {
     min-height: 800px;
     background: url('../img/bg/main_bg.jpg') center/cover no-repeat;
@@ -148,6 +153,11 @@ font-size: 18px;
 text-transform: uppercase;
 color: #FFFFFF;
 text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo .promo_btn:hover {
+    background-image: none;
+    background-color: #1EACC7;
 }
 
 .reasons {
@@ -307,12 +317,28 @@ line-height: 31px;
     position: absolute;
     bottom: 35px;
    left: calc(50% - 15px);
-    width: 30px;
-height: 30px;
+    width: 26px;
+height: 26px;
 border-radius: 50%;
 background-color: #000000;
 margin: 0 auto;
 cursor: pointer;
+}
+
+.mobile .mobile_item .mobile_item_plus::before{
+    content: '';
+    width: 14px;
+    height: 2px;
+    background-color: #1EACC7;
+}
+
+.mobile .mobile_item .mobile_item_plus::after{
+    content: '';
+    position: absolute;
+    left: calc(50% - 1px);
+    width: 2px;
+    height: 14px;
+    background-color: #1EACC7;
 }
 
 .choice {
@@ -350,4 +376,62 @@ cursor: pointer;
     text-align: center;
     color: #222222;
     line-height: 24px;
+}
+
+.require {
+    padding: 68px 0 84px 0;
+}
+
+.require .require_title {
+font-weight: 400;
+font-size: 22px;
+color: #1CA8C3;
+}
+
+.require .require_title_red {
+    color: #FF5656;
+    ;
+}
+
+.require .require_list li {
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 10px;
+font-weight: 300;
+font-size: 17px;
+color: #222222;
+}
+
+.require .require_list li:before {
+    content: '';
+    position: absolute;
+    left: -32px;
+    top: 3px;
+    width: 21px;
+    height: 20px;
+    background: url(../icons/check_blue.svg) center/cover no-repeat;
+    vertical-align: middle;
+}
+
+.require .require_list {
+    padding-left: 50px;
+    margin-top: 22px;
+}
+
+.require .require_descr {
+font-weight: 300;
+font-size: 17px;
+color: #1CA8C3;
+}
+
+.require .require_block {
+    margin: 33px 0;
+}
+
+.require .require_block_nmb {
+margin-bottom: 0;
+}
+
+.require .require_list_red li:before {
+    background: url(../icons/check_red.svg) center/cover no-repeat;
 }
